@@ -6,7 +6,7 @@ begin
   Jeweler::Tasks.new do |gem|
     gem.name = "twitter-lists"
     gem.summary = %Q{A library and command-line tool for working with Twitter lists.}
-    gem.description = %Q{TODO: longer description of your gem}
+    gem.description = %Q{A library and command-line tool for working with Twitter lists}
     gem.email = "ivey@gweezlebur.com"
     gem.homepage = "http://github.com/ivey/twitter-lists"
     gem.authors = ["Michael D. Ivey"]
