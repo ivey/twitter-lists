@@ -11,6 +11,10 @@ begin
     gem.homepage = "http://github.com/ivey/twitter-lists"
     gem.authors = ["Michael D. Ivey"]
     gem.add_development_dependency "thoughtbot-shoulda", ">= 0"
+    gem.add_development_dependency "jnunemaker-matchy", ">= 0"
+    gem.add_development_dependency "jeremymcanally-context", ">= 0"
+    gem.add_development_dependency "jeremymcanally-stump", ">= 0"
+    gem.add_development_dependency "fakeweb", ">= 0"
     # gem is a Gem::Specification... see http://www.rubygems.org/read/chapter/20 for additional settings
   end
   Jeweler::GemcutterTasks.new

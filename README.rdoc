@@ -8,6 +8,24 @@ A library and command-line tool for working with Twitter lists.
 * Currently uses jnunemaker's twitter gem, but planned support
   for twitter-auth as well.
 
+NOTE: currently requires a patch to the twitter gem to get more
+      than 20 members
+
+== Usage
+
+* Standalone:
+  Twitter::List.setup_basic_auth "username", "password"
+
+* Integration with an existing app using the Twitter gem
+  my_twitter_client = .... # Some method to access a configured Twitter::Base
+  Twitter::List.twitter_base = my_twitter_client
+
+list = Twitter::List.parse "@ivey/hah"
+list.load_members
+list.members
+
+Twitter::List.union "@ivey/hah", "@Favstar/rising-stars"
+
 == Note on Patches/Pull Requests
  
 * Fork the project.

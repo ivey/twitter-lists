@@ -1,0 +1,23 @@
+HTTP/1.1 200 OK
+Date: Mon, 30 Nov 2009 19:18:13 GMT
+Server: hi
+X-RateLimit-Limit: 150
+X-Transaction: 1259608693-7574-22655
+Status: 200 OK
+ETag: "d4e12c5655b231fa23a211bfee963e26"
+Last-Modified: Mon, 30 Nov 2009 19:18:13 GMT
+X-RateLimit-Remaining: 118
+X-Runtime: 0.04018
+Content-Type: application/json; charset=utf-8
+Pragma: no-cache
+Content-Length: 1370
+Cache-Control: no-cache, no-store, must-revalidate, pre-check=0, post-check=0
+Expires: Tue, 31 Mar 1981 05:00:00 GMT
+X-Revision: DEV
+X-RateLimit-Reset: 1259610494
+Set-Cookie: lang=en; path=/
+Set-Cookie: _twitter_sess=BAh7CjoTcGFzc3dvcmRfdG9rZW4iLTBlYzYwODE5MmU1Y2M4NmU1MDhjYzE0%250AOWE0Y2MzODFhMGZmYzI4NjI6EXRyYW5zX3Byb21wdDA6CXVzZXJpAtcqOgdp%250AZCIlM2U0ZGRhMGEyYjE0MDllMzFiMmVjZWUxZmE0MGJiNTEiCmZsYXNoSUM6%250AJ0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhhc2h7AAY6CkB1c2Vk%250AewA%253D--f464f0ad20d50938d8e77b12b26c182de3a29793; domain=.twitter.com; path=/
+Vary: Accept-Encoding
+Connection: close
+
+{"users":[{"verified":false,"profile_sidebar_fill_color":"F3F3F3","description":"Style tips for proper writing. contact: fakeapstylebook at gmail dot com. No submissions, please.","screen_name":"FakeAPStylebook","followers_count":66732,"status":{"in_reply_to_user_id":null,"in_reply_to_status_id":null,"truncated":false,"source":"<a href=\"http://www.hootsuite.com\" rel=\"nofollow\">HootSuite</a>","favorited":false,"in_reply_to_screen_name":null,"created_at":"Mon Nov 30 19:01:28 +0000 2009","id":6209864396,"text":"Do not use the term \"press conference.\" Call the event a \"news conference,\" a \"sham\" or \"slopping the hogs.\""},"following":true,"time_zone":"Central Time (US & Canada)","profile_sidebar_border_color":"DFDFDF","friends_count":20,"notifications":false,"favourites_count":0,"profile_text_color":"333333","url":null,"profile_background_image_url":"http://a1.twimg.com/profile_background_images/47626304/fakeapbg__1_.gif","statuses_count":510,"profile_link_color":"990000","protected":false,"profile_background_tile":false,"created_at":"Tue Oct 20 17:06:49 +0000 2009","location":"","name":"Fake AP Stylebook","geo_enabled":false,"profile_background_color":"EBEBEB","profile_image_url":"http://a1.twimg.com/profile_images/486242668/ap-interro_normal.jpg","id":83883736,"utc_offset":-21600}], "next_cursor":0, "previous_cursor":-1317534510543023567 }
