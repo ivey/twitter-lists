@@ -18,20 +18,29 @@ module Twitter
       end
 
       def parse(str)
-        n= new
+        n = new
         n.user, n.name = str.sub(/^@/,'').split('/')
         n
       end
 
-      def union(*lists)
+      def parse_and_load(str)
+        n = parse(str)
+        n.load_members
+        n
+      end
+
+      def lists_to_sets(lists)
         lists = lists.collect { |l| l.is_a?(List) ? l : parse(l) }
-        sets = lists.collect { |l| Set.new l.members }
+        lists.collect { |l| l.load_members ; Set.new(l.members) }
+      end
+
+      def union(*lists)
+        sets = lists_to_sets(lists)
         sets.inject { |u,s| s.union u }.to_a
       end
 
       def intersection(*lists)
-        lists = lists.collect { |l| l.is_a?(List) ? l : parse(l) }
-        sets = lists.collect { |l| Set.new l.members }
+        sets = lists_to_sets(lists)
         sets.inject { |i,s| s.intersection i }.to_a
       end
     end
